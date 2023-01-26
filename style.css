@@ -1,0 +1,149 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'EB Garamond', serif;
+}
+
+p,
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+
+input {
+    outline: none !important;
+}
+
+.lh-btn-primary {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #B68C5A;
+    border-radius: 8px;
+    padding: 18px 30px;
+    border: none !important;
+
+}
+
+.lh-btn-primary:hover {
+    background: #da933c;
+
+}
+
+.search {
+    padding: 18px 40px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.banner {
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 104px 0;
+    margin-top: 60px;
+    border-radius: 8px;
+}
+
+.banner-contant h1 {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 85px;
+}
+
+p {
+    font-weight: 400 !important;
+    font-size: 16px;
+    line-height: 26px;
+
+
+}
+
+.section {
+    margin-top: 120px !important;
+}
+
+.legal h2 {
+
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 52px;
+    color: #414040;
+    margin-bottom: 24px;
+}
+
+.legal-paragraph {
+    margin-bottom: 64px;
+}
+
+.card-footer-img {
+    height: 70px;
+    width: 70px;
+    margin-top: 32px;
+    margin-bottom: 70px;
+}
+
+.card-banner-img {
+    padding-top: 56px;
+    padding-bottom: 32px;
+}
+
+.card-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 42px;
+    color: #414040;
+    margin-bottom: 24px;
+}
+
+.card {
+    border-radius: 0 !important;
+}
+
+.card-1 {
+    border-left: none !important;
+    border-top: none !important;
+}
+
+.card-2 {
+    border-right: none !important;
+    border-top: none !important;
+
+}
+
+.card-3 {
+    border-bottom: none !important;
+}
+
+.card-bg {
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%) !important;
+}
+
+
+
+@media (max-width: 576px) {
+    .banner-contant button {
+        margin-top: 10px;
+    }
+
+    body {
+        padding: 0 5px;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        border: 1px solid #E7E7E7 !important;
+
+
+
+    }
+}
